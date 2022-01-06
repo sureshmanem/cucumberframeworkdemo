@@ -5,6 +5,7 @@ Feature: Parabank Login Functionality
     When user provides valid username and password
     And click on login button
     Then login to be successful
+    And logout the application
     And close the application
 
   Scenario: Login using invalid credentials

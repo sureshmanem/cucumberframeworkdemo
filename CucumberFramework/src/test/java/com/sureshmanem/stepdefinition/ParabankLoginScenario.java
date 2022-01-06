@@ -71,11 +71,16 @@ public class ParabankLoginScenario {
 		System.out.println("Login unsuccessful: error message " + errorMsg.getText());
 	}
 
-	@And("close the application")
-	public void close_the_application() {
+	@And("logout the application")
+	public void logout_the_application() {
 		driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[8]/a")).click();
 		System.out.println("Logout the application");
+	}
+
+	@And("close the application")
+	public void close_the_application() {
 		driver.close();
+		System.out.println("Close the browser");
 	}
 
 }
