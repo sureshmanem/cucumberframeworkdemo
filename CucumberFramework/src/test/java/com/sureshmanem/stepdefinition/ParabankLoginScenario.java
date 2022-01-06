@@ -36,8 +36,8 @@ public class ParabankLoginScenario {
 
 	@When("user provides valid username and password")
 	public void user_provides_valid_username_and_password() {
-		driver.findElement(By.name("username")).sendKeys("surezh1984");
-		driver.findElement(By.name("password")).sendKeys("Testdemo1234");
+		driver.findElement(By.name("username")).sendKeys("suresh1984");
+		driver.findElement(By.name("password")).sendKeys("Welcome2022");
 		System.out.println("Enter valid username and password");
 	}
 

@@ -1,3 +1,4 @@
+@regression
 Feature: Parabank Login Functionality
 
   Scenario: Login using valid credentials
@@ -8,6 +9,7 @@ Feature: Parabank Login Functionality
     And logout the application
     And close the application
 
+@sanity
   Scenario: Login using invalid credentials
     Given user is navigating to the parabank url
     When user provides invalid username and password

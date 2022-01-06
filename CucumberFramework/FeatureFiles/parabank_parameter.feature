@@ -1,3 +1,4 @@
+@sanity
 Feature: Parabank Login Functionality
 
   Scenario: Login using valid credentials

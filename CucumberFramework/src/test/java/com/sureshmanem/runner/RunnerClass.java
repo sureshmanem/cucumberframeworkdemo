@@ -7,11 +7,12 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "./FeatureFiles/parabank_datadriven.feature",
+		features = "./FeatureFiles",
 		glue="com.sureshmanem.stepdefinition",
 		dryRun = false,
 		monochrome = false,
-		plugin = {"html:reports/cucumber-report.html","json:reports/webreport.json","pretty"}
+		plugin = {"html:reports/cucumber-report.html","json:reports/webreport.json","pretty"},
+		tags = "@regression"
 		)
 public class RunnerClass {
 
