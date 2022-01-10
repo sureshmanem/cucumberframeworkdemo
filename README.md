@@ -1,3 +1,4 @@
+
 # Cucumber Framework
 
 
@@ -36,8 +37,9 @@ Workflow
     *Configuring a appium is a long process so integrating cucumber with appium is very tedious.*
     
 1. Write Declarative features
-*Style of writing a feature file is concise and to the point, contains only relevant information about the story.
-The declarative style is more readable as it contains less steps in the scenario. The reader can easily understand the scope of the test and quickly identify if any key elements are missing.*
+
+    *Style of writing a feature file is concise and to the point, contains only relevant information about the story.
+    The declarative style is more readable as it contains less steps in the scenario. The reader can easily understand the scope of the test and quickly identify if any key elements are missing.*
 2. Insert a narrative
     
     *Narratives describe in about one sentence what a feature does. Typical narratives continue benefit for the user, a role that needs the feature and the feature itself. Narratives are important to envision why you are implementing a feature in the first place. They also gave a short overview of the feature so others get a rough understanding what it is about without reading the scenarios.*
